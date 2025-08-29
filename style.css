@@ -26,3 +26,17 @@ h1 {
   background-color: black;
   margin: 1px;
 }
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
