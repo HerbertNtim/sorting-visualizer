@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 32px;
+}
+
+#container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 32px;
+}
+
+.bar {
+  width: 10px;
+  background-color: black;
+  margin: 1px;
+}
