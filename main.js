@@ -1,6 +1,20 @@
 let n = 10;
 const array = [];
 
+function increaseBars() {
+  if (n < 40) {
+    n += 5;
+  }
+  init();
+}
+
+function decreaseBars() {
+  if (num !== 10) {
+    n -= 5;
+  }
+  init();
+}
+
 init();
 
 function init() {
@@ -56,7 +70,7 @@ function showBars(move) {
     bar.style.height = array[i] * 100 + "%";
     bar.classList.add("bar");
     if (move && move.indices.includes(i)) {
-      bar.style.backgroundColor = move.type === 'swap' ? "red" : 'blue';
+      bar.style.backgroundColor = move.type === "swap" ? "red" : "blue";
     }
     container.appendChild(bar);
   }

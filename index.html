@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Sorting Visualizer</title>
-</head>
-<body>
-  <h1>Sorting Visualizer</h1>
-  <div id="container"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body>
+    <h1>Sorting Visualizer</h1>
+    <div id="container"></div>
 
-  <div id="buttons">
-    <button onclick="init()" class="btn">Init</button>
-    <button onclick="play()" class="btn">Play</button>
-  </div>
+    <div id="buttons">
+      <button onclick="init()" class="btn">Init</button>
+      <button onclick="play()" class="btn">Play</button>
+    </div>
 
-  <script src="main.js"></script>
-</body>
+    <div id="numBars">
+      <button onclick="increaseBars()" class="btn">Increase Bars +</button>
+      <button onclick="decreaseBars()" class="btn">Decrease Bars -</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
