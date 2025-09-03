@@ -1,5 +1,18 @@
 let n = 10;
 const array = [];
+let speed = 50;
+
+function fast() {
+  if (speed > 50) {
+    speed -= 10;
+  }
+}
+
+function slow() {
+  if (speed < 500) {
+    speed += 50;
+  }
+}
 
 function increaseBars() {
   if (n < 40) {
@@ -45,7 +58,7 @@ function animate(moves) {
   showBars(move);
   setTimeout(() => {
     animate(moves);
-  }, 500);
+  }, speed);
 }
 
 function bubbleSort(array) {
