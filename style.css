@@ -23,13 +23,15 @@ h1 {
   justify-items: center;
   margin-top: 32px;
   padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .bar {
   width: 10px;
   background-color: black;
   margin: 1px;
-  padding: 1;
+  padding: 1px;
 }
 
 #buttons {
